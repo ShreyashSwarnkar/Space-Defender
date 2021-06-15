@@ -55,8 +55,8 @@ function draw() {
     strokeWeight(windowWidth/100-2);
     stroke("black");
     text("Plz Press Space to Play",windowWidth/4,windowHeight/2-100);
-    text(":)",windowWidth/2-10,windowHeight/2+100);
-    text("You can play by pressing left and right arrow",windowWidth/2,windowHeight/2+200);
+    text(":)",windowWidth/4-10,windowHeight/2+100);
+    text("You can play by pressing left and right arrow",windowWidth/2,windowHeight/1+200);
     if (keyDown("space") || keyDown("left_arrow") || keyDown("right_arrow")) {
     gameState = "play";
     }
