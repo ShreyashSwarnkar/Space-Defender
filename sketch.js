@@ -108,10 +108,10 @@ function draw() {
     if(life>0){
       text("Press R to play again",windowWidth/2-300,windowHeight/2);
     }
-    if(life === 0){
+    if(life === 1){
       text("You have no life left",windowWidth/2-300,windowHeight/2);
     }
-    if(keyDown("r") && life>0){
+    if(keyDown("r") && life>1){
       reset();
     }
     javisG.setLifetimeEach(1);
