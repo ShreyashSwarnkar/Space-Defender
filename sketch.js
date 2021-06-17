@@ -105,7 +105,7 @@ function draw() {
     stroke("red");
     text("Game over",windowWidth/3+80,windowHeight/2-80);
     text("Score : "+score,windowWidth/3+80,windowHeight/2+80);
-    if(life>0){
+    if(life>1){
       text("Press R to play again",windowWidth/2-300,windowHeight/2);
     }
     if(life === 1){
